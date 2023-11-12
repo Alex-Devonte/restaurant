@@ -3,6 +3,8 @@ import displayHome from "./home";
 import displayMenu from "./menu";
 import displayContact from "./contact"; 
 
+import './styles/style.css';
+
 loadSite();
 
 //Hook the tabbed nav elements with event listeners for switching main content
