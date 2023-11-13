@@ -19,5 +19,6 @@ function loadSite() {
     setupNav();
 
     //Start the page with the homepage already loaded
-    displayHome();
+    //displayHome();
+    displayMenu();
 }
