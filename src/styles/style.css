@@ -20,7 +20,7 @@ body {
     align-items: center;
     display: flex;
     justify-content: center;
-    /* height: 90vh; */
+    height: 90vh;
 }
 
 /*Home*/
@@ -88,4 +88,16 @@ body {
     border-radius: 25px;
     opacity: 0.8;
     width: 100%;
+}
+
+/* Contact */
+
+#contact-content {
+    background-color: var(--secondary-bg-color);
+    border: 2px solid var(--main-text-border-color);
+    padding: 25px;
+}
+
+#contact-content h1 {
+    margin-bottom: 15px;
 }
