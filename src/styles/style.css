@@ -16,11 +16,35 @@ body {
     color: var(--main-text-border-color);
 }
 
+/*Nav*/
+nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+nav button {
+    background-color: #f97316;
+    border: 1px solid var(--main-text-border-color);
+    color: #fff7ed;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+nav button:hover {
+    background-color: var(--secondary-bg-color);
+    cursor: pointer;
+}
+
+.active {
+    background-color: var(--main-text-border-color);
+}
+
 #main-content {
     align-items: center;
     display: grid;
     justify-content: center;
-    height: 100vh;
+    height: 90vh;
 }
 
 /*Home*/
