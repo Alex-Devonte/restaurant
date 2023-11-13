@@ -15,12 +15,11 @@ function createMenu() {
         { name: 'Strawberry Shake', image: strawberryShake },
       ];
 
-    const menu = document.createElement('h1');
+    const menu = document.createElement('div');
+    menu.id = 'menu-content';
 
     const menuItemContainer = document.createElement('div');
     menuItemContainer.className = 'menu-item-container';
-    menu.appendChild(menuItemContainer);
-
 
     //Loop through the items to create each menu-item div
     menuItems.forEach((item) => {
