@@ -1,8 +1,3 @@
-// function createHome() {
-//     const home = document.createElement('h1');
-//     home.textContent = "Homepage";
-//     return home;
-// }
 import burger from './images/about-burger.jpg';
 
 function createHome() {
@@ -23,13 +18,12 @@ function createHome() {
     burgerImage.classList.add('about-burger');
     home.appendChild(burgerImage);
   
-
     return home;
 }
 
 
 function displayHome() {
-    const main = document.getElementById("main-content");
+    const main = document.getElementById('main-content');
     main.textContent = '';
     main.appendChild(createHome());
 }
